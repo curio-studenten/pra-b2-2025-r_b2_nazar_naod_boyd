@@ -109,11 +109,11 @@ article:last-of-type{
 
 article h2{
   margin: 0;
-  padding: 1.5em;
+  padding: 0.2em;
   border-left: none;
   background-position: center;
   background-size: cover;
-  text-align: center;
+  text-align: left;
 }
 article h2.fun-for-family{
   background-image: url('../images/family-fun-george-arthur-pflueger.jpg');
@@ -169,11 +169,28 @@ button{
   text-align: center;
 }
 
-.payment-option{
-  height: 64px;
+.side-by-side {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  max-width: 100%;
+  overflow: hidden;
 }
 
-.sidy-by-side{
+.payment-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .side-by-side {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .description{
