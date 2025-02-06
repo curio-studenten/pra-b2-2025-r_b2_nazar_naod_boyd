@@ -1,5 +1,4 @@
-/*
-  Afgesproken kleuren:
+/*Afgesproken kleuren:
 
     * Lichte achtergrond: #FCFCFC
     * Medium achtergrond: #CCCCCC
@@ -173,8 +172,34 @@ button{
   height: 64px;
 }
 
-.sidy-by-side{
+.side-by-side {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  max-width: 100%;
+  overflow: hidden;
 }
+
+.payment-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  flex-shrink: 0;
+  max-width: 120px;
+}
+
+@media (max-width: 768px) {
+  .side-by-side {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .payment-option {
+    max-width: 100%;
+  }
+}
+
 
 .description{
   flex: 1;
