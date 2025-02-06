@@ -303,3 +303,39 @@ to   { opacity: 1; }
   flex-direction: row;
   
 }
+
+.cart-container{
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  justify-content: space-between;
+ 
+}
+
+.price-single{
+  position: relative;
+  right: 110px;
+}
+
+.amount{
+  position: relative;
+  right: 60px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: solid;
+  border-bottom: solid;
+}
+
+.total{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  font-weight: bold;
+  gap: 140px;
+  position: relative;
+  right: 153px;
+}
