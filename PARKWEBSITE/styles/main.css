@@ -1,5 +1,4 @@
-/*
-  Afgesproken kleuren:
+/*Afgesproken kleuren:
 
     * Lichte achtergrond: #FCFCFC
     * Medium achtergrond: #CCCCCC
@@ -109,11 +108,11 @@ article:last-of-type{
 
 article h2{
   margin: 0;
-  padding: 0.2em;
+  padding: 1.5em;
   border-left: none;
   background-position: center;
   background-size: cover;
-  text-align: left;
+  text-align: center;
 }
 article h2.fun-for-family{
   background-image: url('../images/family-fun-george-arthur-pflueger.jpg');
@@ -169,6 +168,10 @@ button{
   text-align: center;
 }
 
+.payment-option{
+  height: 64px;
+}
+
 .side-by-side {
   display: flex;
   justify-content: space-between;
@@ -183,7 +186,7 @@ button{
   justify-content: center;
   height: 64px;
   flex-shrink: 0;
-  max-width: 100%;
+  max-width: 120px;
 }
 
 @media (max-width: 768px) {
@@ -191,7 +194,12 @@ button{
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .payment-option {
+    max-width: 100%;
+  }
 }
+
 
 .description{
   flex: 1;
@@ -294,4 +302,3 @@ to   { opacity: 1; }
   flex-direction: row;
   
 }
-
