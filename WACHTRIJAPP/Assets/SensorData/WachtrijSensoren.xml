@@ -3,7 +3,7 @@
   <Sensor01>True</Sensor01>
   <Sensor02>True</Sensor02>
   <Sensor03>True</Sensor03>
-  <Sensor04>True</Sensor04>
+  <Sensor04>False</Sensor04>
   <Sensor05>False</Sensor05>
   <Sensor06>False</Sensor06>
   <Sensor07>False</Sensor07>
